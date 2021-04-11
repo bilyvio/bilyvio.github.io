@@ -12,7 +12,7 @@ nav {
 .logo {
   color: #e2e2e2;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-size: 30px;
 }
 
@@ -99,6 +99,16 @@ div .desc {
   background-color: #1F222E;
   text-align: center;
 }
+div .desc2 {
+  padding: 5px;
+  font-size: 15px;
+  color: #afb1be;
+  background-color: #1F222E;
+  text-align: left;
+}
+div .desc2 .name {
+  text-align: right;
+}
 
 .clearfix:after {
   content: "";
@@ -161,8 +171,12 @@ div .desc {
   .responsive {
     width: 100%;
   }
+
+  .card-signin {
+    top: 100px;
+  }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
